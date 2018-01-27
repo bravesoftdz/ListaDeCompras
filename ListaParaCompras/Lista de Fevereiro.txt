@@ -1,0 +1,6 @@
+			Lista de Fevereiro
+
+Arroz     	       |	     Quantidade:     2     	|	     Tipo:     COMIDA
+Feijão     	       |	     Quantidade:     2     	|	     Tipo:     COMIDA
+Macarrão     	       |	     Quantidade:     2     	|	     Tipo:     COMIDA
+Refri     	       |	     Quantidade:     2     	|	     Tipo:     BEBIDA

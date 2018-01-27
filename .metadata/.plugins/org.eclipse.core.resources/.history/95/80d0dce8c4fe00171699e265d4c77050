@@ -1,0 +1,12 @@
+package models;
+
+public class ProdutoBebida extends Produto{
+	
+	
+	
+	
+	public String categ(){
+		
+		return "2";
+	}
+}

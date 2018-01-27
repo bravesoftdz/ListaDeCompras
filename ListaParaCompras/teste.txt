@@ -1,0 +1,6 @@
+			Teste
+
+Arroz     	|	     Quantidade:     2     	|	     Tipo:     COMIDA
+Feijão     	|	     Quantidade:     3     	|	     Tipo:     COMIDA
+Macarrão     	|	     Quantidade:     3     	|	     Tipo:     COMIDA
+Refri     	|	     Quantidade:     2     	|	     Tipo:     BEBIDA

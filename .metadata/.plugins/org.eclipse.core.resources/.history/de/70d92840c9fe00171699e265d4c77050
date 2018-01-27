@@ -1,0 +1,57 @@
+package controllers;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
+public class ListaComprasController {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ListaComprasController window = new ListaComprasController();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public ListaComprasController() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblbackg = new JLabel("");
+		ImageIcon icone = new ImageIcon(ListaComprasController.class.getResource("/imgs/family.jpg"));
+		Image ima = icone.getImage();
+		Image imagem = ima.getScaledInstance(lblbackg.getWidth(), lblbackg.getHeight(), Image.SCALE_DEFAULT);
+		Icon ico = new ImageIcon(imagem);
+		//lblNewLabel.setIcon
+		lblbackg.setBounds(10, 11, 414, 239);
+		frame.getContentPane().add(lblbackg);
+	}
+}

@@ -1,0 +1,18 @@
+package models;
+
+public abstract class Produto {
+	
+	private String nome;
+	private String quantidade;
+	private String categoria;
+	
+	public Produto (String nome, String quantidade, String categoria){
+		
+		this.nome = nome;
+		this.quantidade = quantidade;
+		this.categoria = categoria;
+	}
+	
+	public abstract String categ();
+
+}
